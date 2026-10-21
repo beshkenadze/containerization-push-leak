@@ -1,0 +1,23 @@
+async-http-client 1.35.0, ahc-early-response/ReadStreamParkedFDProbe.swift copied into Tests/AsyncHTTPClientTests/
+swift test --filter ReadStreamParkedFDProbe
+Test Suite 'Selected tests' started at 2026-10-21 00:01:39.151.
+Test Suite 'AsyncHTTPClientTests.xctest' started at 2026-10-21 00:01:39.159.
+Test Suite 'ReadStreamParkedFDProbe' started at 2026-10-21 00:01:39.159.
+Test Case '-[AsyncHTTPClientTests.ReadStreamParkedFDProbe testA_ResetClosesParkedReader]' started.
+Test Case '-[AsyncHTTPClientTests.ReadStreamParkedFDProbe testA_ResetClosesParkedReader]' passed (2.191 seconds).
+Test Case '-[AsyncHTTPClientTests.ReadStreamParkedFDProbe testB_NoResetKeepsParkedReaderOpen]' started.
+Test Case '-[AsyncHTTPClientTests.ReadStreamParkedFDProbe testB_NoResetKeepsParkedReaderOpen]' passed (2.138 seconds).
+Test Suite 'ReadStreamParkedFDProbe' passed at 2026-10-21 00:01:43.488.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4.328 (4.329) seconds
+Test Suite 'AsyncHTTPClientTests.xctest' passed at 2026-10-21 00:01:43.488.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4.328 (4.329) seconds
+Test Suite 'Selected tests' passed at 2026-10-21 00:01:43.488.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 4.328 (4.336) seconds
+A: attempt1 pulled=2/64 chunks; PARKED: openFDs=1 retainedKiB=1062
+A: AFTER-RETRY-BODY (reset=true): openFDs=0 pumpStillParked=true retainedKiB=1063
+A: RETRY-READ: openFDsDuringRetry=1 retryBytes=67108864 openFDsAfterRetry=0 pumpStillParked=true attempt1Pulled=2
+A: AFTER-CANCEL: openFDs=0 iteratorReleased=true
+B: attempt1 pulled=2/64 chunks; PARKED: openFDs=1 retainedKiB=1035
+B: AFTER-RETRY-BODY (reset=false): openFDs=1 pumpStillParked=true retainedKiB=1035
+B: RETRY-READ: openFDsDuringRetry=-1 retryBytes=0 openFDsAfterRetry=1 pumpStillParked=true attempt1Pulled=2
+B: AFTER-CANCEL: openFDs=0 iteratorReleased=true

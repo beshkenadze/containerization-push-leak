@@ -1,0 +1,26 @@
+Process:         xctest [35615]
+Path:            /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Xcode/Agents/xctest
+Load Address:    0x100748000
+Identifier:      xctest
+Version:         16.0 (25229)
+Build Info:      IDEApplication-25183120005000000~2 (27A9275)
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  swift-package [34614]
+Target Type:     live task (Roots Present)
+
+Date/Time:       2026-10-20 21:31:49.927 +0300
+Launch Time:     2026-10-20 21:31:46.283 +0300
+OS Version:      macOS 27.0.1 (26A434)
+Report Version:  7
+Analysis Tool:   /usr/bin/leaks
+
+Physical footprint:         71.8M
+Physical footprint (peak):  71.8M
+Idle exit:                  untracked
+----
+
+leaks Report Version: 4.0
+Process 35615: 7700 nodes malloced for 65834 KB
+Process 35615: 0 leaks for 0 total leaked bytes.
+

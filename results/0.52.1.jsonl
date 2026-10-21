@@ -1,0 +1,18 @@
+{"event":"measure","mallocInUseMiB":0.2,"phase":"baseline","physFootprintMiB":2.7,"scenario":"stall"}
+{"event":"measure","heldBlobMiB":448,"heldPushes":8,"mallocInUseMiB":448.4,"phase":"stalled","physFootprintMiB":473.8,"scenario":"stall"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"after","physFootprintMiB":473.8,"scenario":"stall"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"afterRelief","physFootprintMiB":473.8,"releasedMiB":0,"scenario":"stall"}
+{"afterDeltaMiB":471.1,"afterMiB":473.8,"afterReliefMiB":473.8,"baselineMiB":2.7,"event":"summary","exportOutcome":"threw: simulated push failure for sha256:04c343465ae76ae68bc20cba183c3cebbc6f2cee9a5009e83ebd1667a707f283","firstChunkBlobMiB":448,"firstChunkPushes":8,"imageReused":true,"layerMiB":64,"layers":8,"lifetimePeakMiB":473.8,"mallocInUseAfterMiB":0.3,"mallocInUseBaselineMiB":0.2,"peakDeltaMiB":471.1,"peakMiB":473.8,"scenario":"stall","verifiedBlobs":0}
+{"event":"measure","mallocInUseMiB":0.2,"phase":"baseline","physFootprintMiB":2.7,"scenario":"fail"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"after","physFootprintMiB":431.6,"scenario":"fail"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"afterRelief","physFootprintMiB":431.6,"releasedMiB":0,"scenario":"fail"}
+{"afterDeltaMiB":428.8,"afterMiB":431.6,"afterReliefMiB":431.6,"baselineMiB":2.7,"event":"summary","exportOutcome":"threw: simulated push failure for sha256:04c343465ae76ae68bc20cba183c3cebbc6f2cee9a5009e83ebd1667a707f283","firstChunkBlobMiB":448,"firstChunkPushes":8,"imageReused":true,"layerMiB":64,"layers":8,"lifetimePeakMiB":431.6,"mallocInUseAfterMiB":0.3,"mallocInUseBaselineMiB":0.2,"peakDeltaMiB":428.8,"peakMiB":431.6,"scenario":"fail","verifiedBlobs":0}
+{"event":"measure","mallocInUseMiB":0.2,"phase":"baseline","physFootprintMiB":2.8,"scenario":"complete"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"after","physFootprintMiB":379.6,"scenario":"complete"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"afterRelief","physFootprintMiB":379.6,"releasedMiB":0,"scenario":"complete"}
+{"afterDeltaMiB":376.9,"afterMiB":379.6,"afterReliefMiB":379.6,"baselineMiB":2.8,"event":"summary","exportOutcome":"ok sha256:ac3d9beb4c5e9fd5f0f9146fc0140a6de6b77373f4f8e9d22513787f22e25313","firstChunkBlobMiB":512,"firstChunkPushes":11,"imageReused":true,"layerMiB":64,"layers":8,"lifetimePeakMiB":379.6,"mallocInUseAfterMiB":0.3,"mallocInUseBaselineMiB":0.2,"peakDeltaMiB":376.8,"peakMiB":379.6,"scenario":"complete","verifiedBlobs":11}
+{"event":"measure","mallocInUseMiB":0.2,"phase":"baseline","physFootprintMiB":2.7,"scenario":"stall"}
+{"event":"measure","heldBlobMiB":512,"heldPushes":5,"mallocInUseMiB":512.3,"phase":"stalled","physFootprintMiB":526.8,"scenario":"stall"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"after","physFootprintMiB":526.9,"scenario":"stall"}
+{"event":"measure","mallocInUseMiB":0.3,"phase":"afterRelief","physFootprintMiB":526.9,"releasedMiB":0,"scenario":"stall"}
+{"afterDeltaMiB":524.2,"afterMiB":526.9,"afterReliefMiB":526.9,"baselineMiB":2.7,"event":"summary","exportOutcome":"threw: simulated push failure for sha256:04c343465ae76ae68bc20cba183c3cebbc6f2cee9a5009e83ebd1667a707f283","firstChunkBlobMiB":512,"firstChunkPushes":5,"imageReused":true,"layerMiB":128,"layers":4,"lifetimePeakMiB":526.9,"mallocInUseAfterMiB":0.3,"mallocInUseBaselineMiB":0.2,"peakDeltaMiB":524.2,"peakMiB":526.9,"scenario":"stall","verifiedBlobs":0}

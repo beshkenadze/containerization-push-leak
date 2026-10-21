@@ -1,0 +1,11 @@
+Test Suite 'Selected tests' started at 2026-10-20 21:31:46.386.
+Test Suite 'AsyncHTTPClientTests.xctest' started at 2026-10-20 21:31:46.399.
+Test Suite 'EarlyResponseBodyLeakTests' started at 2026-10-20 21:31:46.399.
+Test Case '-[AsyncHTTPClientTests.EarlyResponseBodyLeakTests testParkedPumpForLeaksTool]' started.
+Test Case '-[AsyncHTTPClientTests.EarlyResponseBodyLeakTests testParkedPumpForLeaksTool]' passed (120.215 seconds).
+Test Suite 'EarlyResponseBodyLeakTests' passed at 2026-10-20 21:33:46.615.
+	 Executed 1 test, with 0 failures (0 unexpected) in 120.215 (120.216) seconds
+Test Suite 'AsyncHTTPClientTests.xctest' passed at 2026-10-20 21:33:46.615.
+	 Executed 1 test, with 0 failures (0 unexpected) in 120.215 (120.216) seconds
+Test Suite 'Selected tests' passed at 2026-10-20 21:33:46.615.
+	 Executed 1 test, with 0 failures (0 unexpected) in 120.215 (120.230) seconds

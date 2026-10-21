@@ -1,0 +1,14 @@
+Tracing: <Swift._DequeBuffer<NIOCore.ByteBuffer> 0x79e7488000> [2560]
+
+Found 1 root referencing: <Swift._DequeBuffer<NIOCore.ByteBuffer> 0x79e7488000> [2560]
+
+This is a reverse reference tree showing how the specified block is referenced.
+The top node is the specified block, the next level down are blocks that reference that, and so on.
+The number at the start of each line is the number of paths-to-roots going through that node.
+
+    1 <Swift._DequeBuffer<NIOCore.ByteBuffer> 0x79e7488000> [2560]
+      1 <Swift.AsyncStream<NIOCore.ByteBuffer>._Storage<> 0x79e680c460> [80]    +24: __strong state.pending._storage._buffer._nativeBuffer 0x79e680c478
+        1 <Swift.AsyncStream<NIOCore.ByteBuffer>._Context<> 0x79e68ac2a0> [48]    +16: __strong storage 0x79e68ac2b0
+          1 <Closure context (unknown layout) 0x79e68ac300> [48]    +32:  0x79e68ac320
+            1 <Task stack 0x79e6cd8c00> [1024]   +224: [capture] 0x79e6cd8ce0
+              1 <Swift Task Owned>     +0:  0x7
