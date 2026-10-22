@@ -36,7 +36,7 @@ The harness runs the real `ExportOperation` code. An in-process client replaces 
 | `fail` | 382–422 MiB | 8.5–11.4 MiB |
 | `complete` | 394–461 MiB | 38–46 MiB |
 
-`main` (`f79e412`), `stall`: 472 MiB.
+`main` (`0cb4d5b`), 3 runs: `stall` 472–478 MiB, `complete` 336–459 MiB. The fix on `0cb4d5b` (`e90f73e`): 11–19 MiB and 41–46 MiB ([`results/main-0cb4d5b-fix-e90f73e.jsonl`](results/main-0cb4d5b-fix-e90f73e.jsonl)).
 All `complete` runs verified every blob.
 
 `ahc-early-response/ReadStreamParkedFDProbe.swift` checks that `reset()` closes the file that a parked async-http-client request keeps open.
